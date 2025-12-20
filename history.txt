@@ -26,3 +26,4 @@
 // Refactor code
 // Add feature
 // Clean up
+// Fix typo
