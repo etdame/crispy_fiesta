@@ -86,7 +86,7 @@ def create_commit(date: datetime, message: str):
 
 
 def main():
-    print(f"🚀 Generating commits for the past {DAYS_BACK} days\n")
+    print(f"Generating commits for the past {DAYS_BACK} days\n")
     print("Probability distribution:")
     for count, prob in COMMIT_PROBABILITIES.items():
         print(f"  {count} commits: {prob}%")
@@ -98,7 +98,7 @@ def main():
         date = datetime.now() - timedelta(days=days_ago)
         commit_count = get_random_commit_count()
         
-        print(f"📅 {date.strftime('%Y-%m-%d')} - {commit_count} commits")
+        print(f"{date.strftime('%Y-%m-%d')} - {commit_count} commits")
         
         for i in range(commit_count):
             # Randomize time throughout the day
@@ -111,7 +111,7 @@ def main():
             create_commit(commit_time, message)
             total_commits += 1
     
-    print(f"\n✅ Done! Created {total_commits} commits over {DAYS_BACK} days")
+    print(f"\nDone! Created {total_commits} commits over {DAYS_BACK} days")
 
 
 if __name__ == "__main__":
