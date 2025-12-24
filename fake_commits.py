@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 
 # ============== CONFIGURATION ==============
 # Number of days to go back
-DAYS_BACK = 20
+DAYS_BACK = 7
 
 # Probability distribution for number of commits per day
 # Format: {num_commits: probability_percentage}
