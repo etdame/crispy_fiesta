@@ -36,3 +36,4 @@
 // Add tests
 // Update README
 // Add feature
+// Refactor code
