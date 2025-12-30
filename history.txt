@@ -44,3 +44,4 @@
 // Bug fix
 // Fix typo
 // Add feature
+// Improve performance
