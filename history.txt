@@ -50,3 +50,4 @@
 // Bug fix
 // Refactor code
 // Update docs
+// Fix typo
