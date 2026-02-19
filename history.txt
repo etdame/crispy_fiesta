@@ -76,3 +76,4 @@
 // Add tests
 // Bug fix
 // Add feature
+// Refactor code
