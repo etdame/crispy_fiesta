@@ -126,3 +126,4 @@
 // Update README
 // Refactor code
 // Add tests
+// Fix typo
