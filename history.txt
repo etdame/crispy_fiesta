@@ -134,3 +134,4 @@
 // Minor changes
 // Bug fix
 // Update README
+// Refactor code
